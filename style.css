@@ -1,0 +1,45 @@
+body {
+    background-size: cover;
+}
+#heading{
+    text-align: center;
+    background-color: rgb(32, 38, 101);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+}
+#heading_text2{
+    padding-bottom: 15px;
+}
+#heading_text{
+    padding: 10px;
+}
+#copyright_footer{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(13, 13, 78);
+    padding: 15px;
+    color: white;
+    margin: 0px;
+}
+
+    canvas{
+        border-radius: 30px;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        margin-top: 80px;
+    }
+    @keyframes example {
+        from {
+            box-shadow: 1px 1px 38px rgb(255, 255, 255);
+        }
+    
+        to {
+            box-shadow: 1px 1px 38px rgb(255, 255, 255);
+        }
+    }
